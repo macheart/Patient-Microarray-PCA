@@ -81,4 +81,4 @@ outliers(matrix, method = c("upperquartile"))
 # Noticed you must refer to GEO data set information to find the age of the patient's sample, sex, etc. fData and pData functions don't provide you with that!
 # I was able to find outliers within the whole GSE13699 dataset though, do not know how to feasibly parse the outliers from the matrix w/o using python
 # Have to decide how to definatively classify outliers! Say pass 3/3 outlier tests (KS,sum,upperquartile)
-# Notice, this is just for the 
+7-25-18 ArrayQualityMetrics
